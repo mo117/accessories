@@ -1,0 +1,292 @@
+/* carousel */
+.home-slider {
+    padding-top: 76px;
+}
+.carousel-item {
+    height: 800px;
+}
+
+/* carousel */
+
+/* start ads */
+
+.Ads {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.Ads div img {
+    width: 100%;
+    height: 307px;
+}
+
+.Ad {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.Ad  img {
+
+    width: 100%;
+    height: 240px;
+    
+  }
+
+.content{
+    position: relative;
+    width: 50%;
+}
+
+.content img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height:  240px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .content:hover image {
+    opacity: 0.3;
+  }
+  
+  .content:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #F83636;
+    color: white;
+    font-size: 16px;
+    padding: 13px 52px;
+    cursor: pointer;
+  }
+  
+/* end ads */
+
+/* start about */
+
+.about h2{
+
+    text-align: center;
+    color: #F83636;
+    margin-bottom: 20px;
+    font-family: Tajawal,Regular;
+}
+
+.about p{
+
+    text-align: center;
+    font-family: Tajawal,Regular;
+    color: #2F4858;
+    font-size: 18px;
+
+}
+
+.about .box .img{
+
+    width: 95%;
+    height: 300px;
+    margin-top: 40px;
+    margin: 10px;
+}
+
+.about .box .coin{
+
+padding-bottom: 30px;
+
+}
+
+/* end about */
+
+/* start offers */
+
+.offers .background{
+
+    background-image: url(../../../assets/images/vv.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.offers .background h2{
+
+    text-align: center;
+    color: #F83636;
+    margin-bottom: 20px;
+    font-family: Tajawal,Regular;
+    margin-top: 50px;
+
+}
+
+.offers .background p{
+
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Tajawal,Regular;
+    color:  #2F4858;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.offers .background button{
+
+    height: 45px;
+    width: 180px;
+    background-color: #F83636 ;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+    color: white;
+    font-family: Tajawal,Regular;
+    border-radius: 5px;
+
+}
+
+.offers .background  .one {
+
+    color: #2F4858;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.offers .background .basic{
+
+    margin-bottom: 60px;
+    margin-top: 50px;
+    
+}
+.offers .background .basic span{
+
+    border: 1px solid #F83636 ;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* end offers */
+
+/* start product */
+
+.product h2{
+
+    text-align: center;
+    color: #F83636;
+    margin-bottom: 20px;
+    font-family: Tajawal,Regular;
+    margin-top: 30px;
+}
+
+.product p{
+    text-align: center;
+    font-family: Tajawal,Regular;
+    color: #2F4858;
+    font-size: 18px;
+}
+
+.product .box .img{
+
+    width: 95%;
+    height: 300px;
+    margin-top: 40px;
+    margin: 10px;
+}
+
+.product .box .coin{
+
+padding-bottom: 30px;
+
+}
+
+/* end product */
+
+/* start news */
+
+.news h2{
+
+    text-align: center;
+    color: #F83636;
+    margin-bottom: 20px;
+    font-family: Tajawal,Regular;
+    margin-top: 100px;
+}
+
+.news p{
+    text-align: center;
+    font-family: Tajawal,Regular;
+    color: #2F4858;
+    font-size: 18px;
+}
+
+.news .our-news .img{
+
+    width: 90%;
+    height: 250px;
+    margin-top: 40px;
+    margin: 10px;
+}
+.news .our-news span{
+  
+    color:#F83636 ;
+    font-size: 20px;
+    font-family: tagwal,regular;
+}
+
+.news .our-news button{
+  
+    height: 45px;
+    width: 130px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+    color: white;
+    font-family: Tajawal,Regular;
+    border-radius: 5px;
+    border: 1px solid #F83636 ;
+    color:#2F4858 ;
+    background-color: white;
+}
+
+.news .our-news button:hover{
+
+    background-color: #F83636;
+    color: white;
+}
+
+/* end news */
+
+
+/* responsive */
+
+@media (max-width:991px){
+
+    .Ads div img {
+        width: 100%;
+        height: 307px;
+        margin-bottom: 20px;
+    }
+
+    .Ad  img {
+
+        width: 100%;
+        height: 240px;
+        margin-bottom: 20px;
+        
+      }
+    
+    
+}
+

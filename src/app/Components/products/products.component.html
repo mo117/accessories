@@ -1,0 +1,171 @@
+<!-- start products -->
+<div class="container products">
+    <div class="row ">
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
+                <div class="search">
+                    <div class="col-xl-10 col-lg-10 col-md-4 col-sm-4 col-8">
+                        <span>ابحث عن ما تريد</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-4 col-sm-4 col-4">
+                            <input>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-4 col-sm-4 col-4 ">
+                            <div class="but"> <i class="fas fa-search"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
+                <div class="gifts">
+                    <div class="col-xl-8 col-lg-8 col-md-4 col-sm-4 col-8">
+                        <span>المنتجات</span>
+                    </div>
+                    <ul>
+                        <li>هدايا</li>
+                        <li>عطور</li>
+                        <li> اكسسوارات يدويه</li>
+                        <li> اكسسوارات مستورده</li>
+                        <li>شنط يد</li>
+                        <li>محافظ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12  ">
+                <div class="price">
+                    <div class="col-xl-8 col-lg-8 col-md-4 col-sm-8 col-8">
+                        <span>السعر</span>
+                    </div>
+                    <div class="col-xl-12 col-lg-8 col-md-4 col-sm-8 col-8">
+                        <label class="container-checkbox">
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-14">
+                                <span class="coin">10 ريال - 50 ريال</span>
+                            </div>
+                        </label>
+                        <label class="container-checkbox">
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-14">
+                                <span class="coin">50 ريال - 100 ريال</span>
+                            </div>
+                        </label>
+                        <label class="container-checkbox">
+
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-14">
+                                <span class="coin">100 ريال - 150 ريال</span>
+                            </div>
+                        </label>
+                        <label class="container-checkbox">
+
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-14">
+                                <span class="coin">150 ريال - 200 ريال</span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col-xl-12">
+                        <button>تحديد</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
+                <div class="colors">
+                    <div class="col-xl-8 col-lg-8 col-md-4 col-sm-8 col-8">
+                        <span>الالوان</span>
+                    </div>
+                    <div class="col-xl-12 col-lg-8 col-md-4 col-sm-8 col-8">
+                        <label class="container-checkbox">
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-8">
+                                <span class="coin">أحمر</span>
+                            </div>
+                        </label>
+                        <label class="container-checkbox">
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-8">
+                                <span class="coin">اسود</span>
+                            </div>
+                        </label>
+                        <label class="container-checkbox">
+
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-8">
+                                <span class="coin">بني</span>
+                            </div>
+                        </label>
+                        <label class="container-checkbox">
+
+                            <div class="col-xl-3 checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="col-xl-8">
+                                <span class="coin">أصفر </span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- pagination -->
+
+        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+                    *ngFor="let item of collection | paginate: { itemsPerPage: 6, currentPage: p }">
+                    <div class="box row">
+                        <img class="product" src="{{item.image}}">
+                        <div class="col-xl-5 col-lg-3 col-md-6 col-sm-4 col-4">
+                            <span> {{item.name}} </span><br>
+                            <span>{{item.price}}</span>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-7 col-7">
+                            <div class="star">
+                                <img class="icon" src="{{item.icon}}">
+                                <img class="icon" src="{{item.icon}}">
+                                <img class="icon" src="{{item.icon}}">
+                                <img class="icon" src="{{item.icon}}">
+                                <img class="icon" src="{{item.icon}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-8 paginate">
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+</div>
+<!-- end products -->

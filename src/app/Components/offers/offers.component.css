@@ -1,0 +1,358 @@
+/* start products */
+
+.products .search{
+
+    border: 1px solid #D5D5D5;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.products .search span{
+ 
+    color: #2F4858;
+    
+}
+.products .search input{
+
+    border-radius: 5px;
+    border: 1px solid #F83636 ;
+    margin-top: 30px;
+    height: 40px;
+    overflow: hidden;
+    
+ }
+ 
+ .products .search .but{
+ 
+    width:40px;
+    background: #F83636;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    margin-top: 28px;
+    padding: 10px;
+    /* margin-right: 40px; */
+ }
+
+ .products .gifts{
+
+    border: 1px solid #D5D5D5;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 19px;
+}
+.products .gifts span{
+ 
+    color: #2F4858;
+    
+}
+
+.products .gifts ul{
+
+    list-style: none;
+    padding: 0px;
+}
+.products .gifts ul li{
+
+    text-align: right;
+    padding-top: 15px;
+    color: #2F4858;
+}
+
+.products .price{
+
+    border: 1px solid #D5D5D5;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 19px;
+}
+.products .price span{
+ 
+    color: #2F4858;
+    
+}
+
+.products .price ul{
+
+    list-style: none;
+    padding: 0px;
+}
+  
+.products .price ul li{
+
+    text-align: right;
+    color: #2F4858;
+
+}
+/* The container-checkbox */
+.container-checkbox {
+  text-align: right;
+}
+.products .price .container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+  
+  }
+  .products .price .coin{
+      color: #2F4858;
+      margin-left:-15%;     
+      font-size: 16px;
+  }
+
+ .products .price .checkbox{
+    margin-right: -10%;
+  }
+
+  /* Hide the browser's default checkbox */
+  .products .price .container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .products .price .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #f83636;
+    border-radius: 50%;
+   
+  }
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  .products .price .container-checkbox input:checked ~ .checkmark {
+    background-color: #f83636;
+  }
+
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .products .price .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .products .price .container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .products .price .container-checkbox .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 7px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .products .price button{
+ 
+    background-color: #F83636;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+  }
+
+  .products .colors{
+
+    border: 1px solid #D5D5D5;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 19px;
+}
+.products .colors span{
+ 
+    color: #2F4858;
+    
+}
+
+.products .colors ul{
+
+    list-style: none;
+    padding: 0px;
+}
+  
+.products .colors ul li{
+
+    text-align: right;
+    color: #2F4858;
+
+}
+.products .colors .container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+   
+  }
+  .products .colors .coin{
+      color: #2F4858;
+      font-size: 16px;
+  }
+
+ /* .products .colors .checkbox{
+    margin-right: -10%;
+  } */
+b {
+  margin-right: 13%;
+  font-weight: 400;
+}
+hr {
+  height: 5px;
+  background-color: #F83636;
+  border: none;
+  width: 27px;
+  margin-left: 94%;
+  margin-top: 4px;
+}
+  /* Hide the browser's default checkbox */
+  .products .colors .container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .products .colors .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #f83636;
+    border-radius: 50%;
+   
+  }
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  .products .colors .container-checkbox input:checked ~ .checkmark {
+    background-color: #f83636;
+  }
+
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .products .colors .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .products .colors .container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .products .colors .container-checkbox .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 7px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* pagination */
+ .products .box .product{
+
+    margin-top: 100px;
+    width: 95%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.paginate{
+    
+    margin-bottom: 30px;
+} 
+
+/* end products */
+
+/* responsive */
+
+
+@media (max-width:1125px){
+
+    .products .box .product{
+ 
+        width: 95%;
+        height: 200px;
+      
+
+    }
+
+    .paginate{
+    
+      margin-top: 30px;
+      margin-bottom: 10px;
+  } 
+
+  
+    }
+
+    @media (max-width:991px){
+
+      .products .box .product{
+   
+          width: 95%;
+          height: 200px;
+          margin: 15px;
+      }
+
+    
+
+      }
+  
+.icon-text {
+  width: max-content;
+  margin: 0px 21px;
+}
+.text-right {
+  padding: 0px;
+}
+
+.checkmark {
+  margin-left: 88%;
+}

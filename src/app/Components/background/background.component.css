@@ -1,0 +1,6 @@
+.background-image{
+    background-image: url(../../../assets/images/pexels-terje-sollie-313719.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
